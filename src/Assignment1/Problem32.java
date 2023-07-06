@@ -3,8 +3,8 @@ package Assignment1;
 public class Problem32 {
 
 	public static void main(String[] args) {
-		// check armstrong number
-		int num = 1634, digits = 0, num1 = num, sum = 0, remainder = 0, power = 1;
+		// check given number is armstrong number
+		int num = 8208, digits = 0, num1 = num, sum = 0, remainder = 0, power = 1;
 		for (int i = num; num > 0; num /= 10) {
 			digits++;
 		}
